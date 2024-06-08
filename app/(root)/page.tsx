@@ -3,7 +3,6 @@ import Link from "next/link";
 import Image from "next/image";
 import Search from "@/components/shared/Search";
 import CategoryFilter from "@/components/shared/CategoryFilter";
-import Collection from "@/components/shared/Collection";
 
 const Home = () => {
   return (
@@ -45,16 +44,6 @@ const Home = () => {
           <Search />
           <CategoryFilter />
         </div>
-
-        {/*<Collection*/}
-        {/*  data={events?.data}*/}
-        {/*  emptyTitle="No Events Found"*/}
-        {/*  emptyStateSubtext="Come back later"*/}
-        {/*  collectionType="All_Events"*/}
-        {/*  limit={6}*/}
-        {/*  page={page}*/}
-        {/*  totalPages={events?.totalPages}*/}
-        {/*/>*/}
       </section>
     </>
   );

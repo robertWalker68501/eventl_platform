@@ -1,3 +1,12 @@
 {
+  "rules": {
+    "camelcase": "off",
+    "no-unused-vars": "off",
+    "tailwindcss/classnames-order": "off",
+    "tailwindcss/no-custom-classname": "off",
+    "tailwindcss/enforces-shorthand": "off",
+    "no-useless-catch": "off",
+    "prefer-const": "off"
+  },
   "extends": ["next/core-web-vitals", "standard", "plugin:tailwindcss/recommended", "prettier"]
 }
